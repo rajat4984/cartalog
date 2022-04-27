@@ -1,0 +1,58 @@
+/* -----------------SECTION------------------ */
+
+.slogan-section {
+  position: absolute;
+  top: 35%;
+  padding: 0.7em;
+}
+
+.slogan-section > div {
+  padding-bottom: 1em;
+}
+
+.slogan {
+  font-weight: bold;
+  padding-bottom: 0.2em;
+}
+
+.slogan-text {
+  padding-bottom: 0.8em;
+  font-size: 1.2rem;
+}
+
+.btn {
+  background: transparent;
+  border: 1px solid white;
+  padding: 0.3em 0.5em;
+  transition: 0.3s ease-in-out;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.btn:hover {
+  border: 1px solid white;
+  background-color: white;
+  color: black;
+}
+
+/* ---------------------MEDIS QUERIES----------------- */
+
+@media only screen and (min-width: 920px) {
+  .slogan-section {
+    left: 50%;
+  }
+  .slogan {
+    font-size: 3rem;
+  }
+
+  .slogan-text {
+    width: 70%;
+  }
+
+  .btn {
+    font-size: 1.2rem;
+  }
+}

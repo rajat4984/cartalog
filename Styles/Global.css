@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+body {
+  background: rgba(0, 0, 0, 0.6) url(../images/background-image.jpg) no-repeat
+    center center fixed;
+  background-size: cover;
+  background-blend-mode: darken;
+  color: rgb(245, 245, 245);
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* ------------------NAVBAR----------------------------- */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5%;
+  background-color: black;
+}
+
+.brand {
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.preview-link {
+  text-decoration: none;
+  transition: 0.3s;
+  border-radius: 5px;
+  padding: 0.3em 0.5em;
+}
+
+.preview {
+  margin-top: 0.5em;
+}
+
+.brand:hover,
+.preview-link:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.btn {
+  background: transparent;
+  border: 1px solid white;
+  padding: 0.3em 0.5em;
+  transition: 0.3s ease-in-out;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.btn:hover {
+  border: 1px solid white;
+  background-color: white;
+  color: black;
+}
+
+@media only screen and (min-width: 920px) {
+  .brand {
+    font-size: 1.5rem;
+  }
+  .preview-link {
+    font-size: 1.1rem;
+    padding: 7px;
+  }
+
+  .btn{
+    font-size: 1.2rem;
+  }
+}
