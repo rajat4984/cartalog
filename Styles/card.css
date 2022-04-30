@@ -1,8 +1,8 @@
-.card-section {
+.card-section{
   margin: 5em;
 }
-
 .card {
+  display: inline-block;
   box-shadow: 0 1px 4px 0 rgb(221, 221, 221);
   background-blend-mode: darken;
   height: 350px;

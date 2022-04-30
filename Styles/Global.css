@@ -28,6 +28,11 @@ a {
   background-color: black;
 }
 
+.active{
+  background-color: white;
+  color: black;
+}
+
 .brand {
   font-size: 1.5rem;
   text-decoration: none;
