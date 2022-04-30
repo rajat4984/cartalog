@@ -1,0 +1,29 @@
+.card-section {
+  margin: 5em;
+}
+
+.card {
+  box-shadow: 0 1px 4px 0 rgb(221, 221, 221);
+  background-blend-mode: darken;
+  height: 350px;
+  border-radius: 1em;
+  width: 60%;
+  transition: .3s;
+  cursor: pointer;
+  margin-bottom: 3em;
+}
+
+.card:hover{
+    color: transparent;
+    transform: scale(1.1);
+}
+
+.card-heading {
+  padding: 1em 1em 0 1em;
+}
+
+.card-text{
+    width: 65%;
+    padding: 1em 2em 2em 2em ;
+    line-height: 1.5;
+}

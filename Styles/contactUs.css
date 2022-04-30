@@ -1,7 +1,7 @@
 /* -------------------CONTACTUS-CONTAINER------------- */
 
 .container {
-  width: 90%;
+  width: 80%;
   margin: 50px auto;
 }
 
@@ -9,16 +9,17 @@
   display: flex;
   margin-top: 1em;
   border: 2px solid white;
-  flex-wrap: wrap;
 }
 
 .contact-left {
-    width: 100%;
-  padding: 2em 1.5em;
+  flex-basis: 60%;
+  padding: 40px 60px;
+  width: 100%;
   background-color: rgba(0, 0, 0, 0.7);
 }
 
 .contact-right {
+  flex-basis: 40%;
   padding: 2em 1.5em;
   background-color: rgb(255, 255, 255);
   color: black;
@@ -77,25 +78,4 @@ td:first-child {
 tr,
 td {
   padding-top: 20px;
-}
-
-/* -------MEDIA----------- */
-
-@media only screen and (min-width: 700px) {
-  .container {
-    width: 80%;
-  }
-
-  .contact-box{
-    flex-wrap: nowrap;
-  }
-
-  .contact-left {
-    flex-basis: 60%;
-    padding: 40px 60px;
-  }
-
-  .contact-right {
-    flex-basis: 40%;
-  }
 }

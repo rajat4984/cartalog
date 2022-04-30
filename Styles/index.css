@@ -1,6 +1,7 @@
 /* -----------------SECTION------------------ */
 
 .slogan-section {
+  left: 50%;
   position: absolute;
   top: 35%;
   padding: 0.7em;
@@ -12,16 +13,19 @@
 
 .slogan {
   font-weight: bold;
+  font-size: 3rem;
   padding-bottom: 0.2em;
 }
 
 .slogan-text {
   padding-bottom: 0.8em;
+  width: 70%;
   font-size: 1.2rem;
 }
 
 .btn {
   background: transparent;
+  font-size: 1.2rem;
   border: 1px solid white;
   padding: 0.3em 0.5em;
   transition: 0.3s ease-in-out;
@@ -38,21 +42,3 @@
   color: black;
 }
 
-/* ---------------------MEDIS QUERIES----------------- */
-
-@media only screen and (min-width: 920px) {
-  .slogan-section {
-    left: 50%;
-  }
-  .slogan {
-    font-size: 3rem;
-  }
-
-  .slogan-text {
-    width: 70%;
-  }
-
-  .btn {
-    font-size: 1.2rem;
-  }
-}
